@@ -35,7 +35,6 @@ public class IntegerListSorterTest {
 
         //Assert
         checkWhetherFileContentIsSorted(expectedSortedIntegers, sortedFileName);
-
     }
 
     private void checkWhetherFileContentIsSorted(List<Integer> expectedSortedIntegers, String sortedFileName) throws IOException {
